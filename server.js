@@ -75,7 +75,7 @@ function initWhatsApp() {
     whatsappClient = new Client({
         authStrategy: new LocalAuth({ clientId: "lstore-server" }),
         puppeteer: {
-            headless: true,
+            headless: 'new',
             args: [
                 '--no-sandbox', 
                 '--disable-setuid-sandbox',
@@ -83,7 +83,8 @@ function initWhatsApp() {
                 '--disable-accelerated-2d-canvas',
                 '--no-first-run',
                 '--no-zygote',
-                '--disable-gpu'
+                '--disable-gpu',
+                '--single-process'
             ]
         }
     });
@@ -121,7 +122,10 @@ function initWhatsApp() {
         lastQR = null;
     });
 
-    whatsappClient.initialize().catch(err => {
+    console.log('[WHATSAPP] Chamando initialize()... (Pode demorar um pouco na VPS)');
+    whatsappClient.initialize().then(() => {
+        console.log('[WHATSAPP] Initialize concluído com sucesso!');
+    }).catch(err => {
         console.error('[WHATSAPP] Erro na inicialização:', err);
         whatsappStatus = 'DISCONNECTED';
         whatsappClient = null;
