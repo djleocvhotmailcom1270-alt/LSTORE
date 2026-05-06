@@ -6,8 +6,8 @@
       "ip": "192.168.0.111",
       "status": "online",
       "cpu": "0%",
-      "lastSeen": 1778093815225,
-      "latency": 286
+      "lastSeen": 1778106966967,
+      "latency": 79
     }
   ],
   "plans": [
@@ -74,6 +74,98 @@
       ],
       "last_wa_1778093862202": 1778093963297,
       "ultimoPagamentoCiclo": "5/2026"
+    },
+    {
+      "id": 1778099625432,
+      "name": "MARIA",
+      "login": "MARIA",
+      "password": "144",
+      "plan": "400M",
+      "cpf": "",
+      "phone": "+55 99 9121-2304",
+      "address": "",
+      "email": "",
+      "date": "",
+      "vencimento": "6",
+      "diasBloqueio": "0",
+      "status": "ativo",
+      "syncedMks": [
+        {
+          "ip": "192.168.0.111",
+          "name": "APK2"
+        }
+      ],
+      "last_wa_1778099625432": 1778099668181,
+      "ultimoPagamentoCiclo": "5/2026"
+    },
+    {
+      "id": 1778099907263,
+      "name": "KA",
+      "login": "KA",
+      "password": "1234",
+      "plan": "400M",
+      "cpf": "",
+      "phone": "+55 99 9121-2304",
+      "address": "rua nazarer",
+      "email": "djleocv.hotmail.com@gmail.com",
+      "date": "",
+      "vencimento": "6",
+      "diasBloqueio": "2",
+      "status": "ativo",
+      "syncedMks": [
+        {
+          "ip": "192.168.0.111",
+          "name": "APK2"
+        }
+      ],
+      "last_wa_1778099907263": 1778099968288,
+      "ultimoPagamentoCiclo": "5/2026"
+    },
+    {
+      "id": 1778100279324,
+      "name": "LA",
+      "login": "LA",
+      "password": "5454",
+      "plan": "400M",
+      "cpf": "",
+      "phone": "+55 99 9121-2304",
+      "address": "",
+      "email": "",
+      "date": "",
+      "vencimento": "6",
+      "diasBloqueio": "0",
+      "status": "ativo",
+      "syncedMks": [
+        {
+          "ip": "192.168.0.111",
+          "name": "APK2"
+        }
+      ],
+      "last_wa_1778100279324": 1778100328104,
+      "ultimoPagamentoCiclo": "5/2026"
+    },
+    {
+      "id": 1778100301489,
+      "name": "LU",
+      "login": "LU",
+      "password": "5454",
+      "plan": "400M",
+      "cpf": "",
+      "phone": "+55 99 9121-2304",
+      "address": "",
+      "email": "",
+      "date": "",
+      "vencimento": "6",
+      "diasBloqueio": "0",
+      "status": "ativo",
+      "syncedMks": [
+        {
+          "ip": "192.168.0.111",
+          "name": "APK2"
+        }
+      ],
+      "last_wa_1778100301489": 1778100328175,
+      "ultimoPagamentoCiclo": "5/2026"
     }
   ],
   "ipPools": [
@@ -101,6 +193,15 @@
     }
   ],
   "payments": [
+    {
+      "id": 1778094020994,
+      "name": "alana",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1",
+      "date": "Hoje",
+      "time": "16:00:20"
+    },
     {
       "id": 1778087836304,
       "name": "AB",
@@ -579,13 +680,40 @@
       "time": "10:36"
     },
     {
-      "id": 1778094020994,
-      "name": "alana",
+      "id": 1778099785775,
+      "name": "MARIA",
       "bank": "Mercado Pago",
       "method": "PIX",
       "value": "R$ 1",
       "date": "Hoje",
-      "time": "16:00:20"
+      "time": "17:36:25"
+    },
+    {
+      "id": 1778100145835,
+      "name": "KA",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1",
+      "date": "Hoje",
+      "time": "17:42:25"
+    },
+    {
+      "id": 1778100446080,
+      "name": "LA",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1",
+      "date": "Hoje",
+      "time": "17:47:26"
+    },
+    {
+      "id": 1778100505922,
+      "name": "LU",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1",
+      "date": "Hoje",
+      "time": "17:48:25"
     }
   ],
   "bankConfig": {
@@ -599,7 +727,7 @@
     "port": "1194",
     "token": "LS-1SLOBFLDG"
   },
-  "activePage": "clients",
+  "activePage": "all_payments",
   "clientSearchQuery": "",
   "pendingCharges": [
     {

@@ -1399,7 +1399,7 @@ const templates = {
       <h1 class="page-title">Configuração de Comunicação</h1>
     </div>
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start;">
+    <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 2rem; align-items: start;">
       <div class="card animate-fade">
         <div class="card-header">
           <h3>Identificação do Roteador</h3>
@@ -1408,40 +1408,39 @@ const templates = {
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
             <div>
               <label style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.8rem;">Nome do Roteador</label>
-              <input type="text" id="mk-name-input" value="Borda-Principal" style="width: 100%; background: #f8f9fa; border: 1px solid var(--card-border); color: var(--text-primary); padding: 0.8rem; border-radius: 8px;">
+              <input type="text" id="mk-name-input" value="Borda-Principal" style="width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text-primary); padding: 0.8rem; border-radius: 12px;">
             </div>
             <div>
               <label style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.8rem;">Endereço IP (Local/Wan)</label>
-              <input type="text" id="mk-ip-input" value="192.168.88.1" style="width: 100%; background: #f8f9fa; border: 1px solid var(--card-border); color: var(--text-primary); padding: 0.8rem; border-radius: 8px;">
+              <input type="text" id="mk-ip-input" value="192.168.88.1" style="width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text-primary); padding: 0.8rem; border-radius: 12px;">
             </div>
           </div>
 
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
             <div>
               <label style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.8rem;">Usuário API</label>
-              <input type="text" id="mk-user-input" value="lstore_admin" style="width: 100%; background: #f8f9fa; border: 1px solid var(--card-border); color: var(--text-primary); padding: 0.8rem; border-radius: 8px;">
+              <input type="text" id="mk-user-input" value="lstore_admin" style="width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text-primary); padding: 0.8rem; border-radius: 12px;">
             </div>
             <div>
               <label style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.8rem;">Senha API</label>
-              <input type="password" id="mk-pass-input" value="ls@2026" style="width: 100%; background: #f8f9fa; border: 1px solid var(--card-border); color: var(--text-primary); padding: 0.8rem; border-radius: 8px;">
+              <input type="password" id="mk-pass-input" value="ls@2026" style="width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text-primary); padding: 0.8rem; border-radius: 12px;">
             </div>
           </div>
 
           <div>
             <label style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.8rem;">Porta API Mikrotik</label>
-            <input type="number" id="mk-port-input" value="8728" style="width: 100%; background: #f8f9fa; border: 1px solid var(--card-border); color: var(--text-primary); padding: 0.8rem; border-radius: 8px;">
+            <input type="number" id="mk-port-input" value="8728" style="width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text-primary); padding: 0.8rem; border-radius: 12px;">
           </div>
 
-          <div style="background: rgba(0, 242, 255, 0.05); border: 1px solid rgba(0, 242, 255, 0.2); padding: 1rem; border-radius: 12px;">
-            <p style="font-size: 0.85rem; line-height: 1.4;">
-              <i data-lucide="info" style="width: 14px; vertical-align: middle;"></i>
-              Este nome será usado para identificar o roteador no seu painel LSTORE. 
-              O script abaixo será atualizado automaticamente.
+          <div style="background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.2); padding: 1.2rem; border-radius: 16px;">
+            <p style="font-size: 0.85rem; line-height: 1.5; color: rgba(255,255,255,0.7);">
+              <i data-lucide="shield-check" style="width: 18px; vertical-align: middle; margin-right: 8px; color: #10b981;"></i>
+              <strong>Modo de Acesso Remoto Ativado:</strong> O script configurará automaticamente uma VPN reversa e Cloud DDNS para garantir que o painel LSTORE consiga gerenciar este roteador mesmo atrás de NAT ou CGNAT.
             </p>
           </div>
           
-          <button class="btn btn-primary" id="btn-add-to-list" style="width: 100%; margin-top: 1rem;">
-            <i data-lucide="plus-circle" style="width: 18px; vertical-align: middle; margin-right: 8px;"></i>
+          <button class="btn btn-primary" id="btn-add-to-list" style="width: 100%; margin-top: 1rem; padding: 1rem; font-weight: 700;">
+            <i data-lucide="save" style="width: 20px; vertical-align: middle; margin-right: 10px;"></i>
             Salvar no Painel LSTORE
           </button>
         </div>
@@ -1450,43 +1449,75 @@ const templates = {
       <div class="card animate-fade" style="animation-delay: 0.1s">
         <div class="card-header">
           <div>
-            <h3>Script Mikrotik</h3>
+            <h3>Script de Automação Mikrotik</h3>
+            <p style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">Copie e cole no Terminal do seu Mikrotik</p>
           </div>
-          <button class="btn btn-secondary" id="copy-script" style="font-size: 0.8rem;">
-            <i data-lucide="copy"></i> Copiar
+          <button class="btn btn-secondary" id="copy-script" style="font-size: 0.85rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
+            <i data-lucide="copy" style="width: 16px; margin-right: 6px;"></i> Copiar Script
           </button>
         </div>
         
-        <div class="terminal-card" style="margin-top: 0;">
-          <div class="terminal-header">
+        <div class="terminal-card" style="margin-top: 0; border: 1px solid rgba(255,255,255,0.05);">
+          <div class="terminal-header" style="background: rgba(0,0,0,0.3);">
             <div class="terminal-dot dot-red"></div>
             <div class="terminal-dot dot-yellow"></div>
             <div class="terminal-dot dot-green"></div>
+            <span style="margin-left: auto; font-size: 0.7rem; opacity: 0.5; font-family: monospace;">mikrotik_setup.rsc</span>
           </div>
-          <div class="terminal-content" id="script-content" style="max-height: 300px; font-size: 0.8rem;">
-<pre style="font-family: inherit; margin: 0; white-space: pre-wrap;"># --- SCRIPT DE CONFIGURAÇÃO LSTORE ---
-# Roteador: <span id="script-mk-name">Borda-Principal</span>
-# Token: ${state.vpnConfig.token}
+          <div class="terminal-content" id="script-content" style="max-height: 450px; font-size: 0.85rem; line-height: 1.4; background: #000; padding: 1.5rem;">
+<pre style="font-family: 'Fira Code', 'Courier New', monospace; margin: 0; white-space: pre-wrap; color: #e5e7eb;"># --- SCRIPT DE CONFIGURAÇÃO LSTORE PRO ---
+# Roteador: <span id="script-mk-name" style="color: #60a5fa; font-weight: bold;">Borda-Principal</span>
+# Token: <span style="color: #34d399;">${state.vpnConfig.token}</span>
 
 /system identity set name="LSTORE-<span id="script-mk-name-2">Borda-Principal</span>"
 
-# Habilita Servico API
-/ip service set api disabled=no port=<span id="script-mk-port">8728</span>
+# 1. Habilita Cloud DDNS (Acesso Externo Facilitado)
+/ip cloud set ddns-enabled=yes ddns-update-interval=1m
+:delay 2s
+/log info "LSTORE: Ativando Cloud DNS..."
+
+# 2. Habilita Servico API
+/ip service set api disabled=no port=<span id="script-mk-port" style="color: #fbbf24;">8728</span>
 /ip service set api-ssl disabled=yes
 
-# Configura Usuario de Acesso
-:do { /user add name="<span id="script-mk-user">lstore_admin</span>" password="<span id="script-mk-pass">ls@2026</span>" group=full comment="Usuario LSTORE" } on-error={ /user set [find name="<span id="script-mk-user">lstore_admin</span>"] password="<span id="script-mk-pass">ls@2026</span>" }
-
-# Configura Cliente VPN
-:do {
-    /interface ovpn-client add name=vpn-lstore connect-to=${state.vpnConfig.server}
-    /interface ovpn-client set [find name=vpn-lstore] port=${state.vpnConfig.port} mode=ip user="${state.vpnConfig.token}" password="lstore-secure-pass" profile=default-encryption add-default-route=no comment="Painel LSTORE"
-} on-error={
-    /interface ovpn-client set [find name=vpn-lstore] connect-to=${state.vpnConfig.server} user="${state.vpnConfig.token}"
+# 3. Configura Usuario de Acesso
+:do { 
+    /user add name="<span id="script-mk-user" style="color: #f87171;">lstore_admin</span>" password="<span id="script-mk-pass">ls@2026</span>" group=full comment="Usuario LSTORE" 
+} on-error={ 
+    /user set [find name="<span id="script-mk-user">lstore_admin</span>"] password="<span id="script-mk-pass">ls@2026</span>" 
 }
 
-/log info "LSTORE: Script executado com sucesso!"
-/put "Configuracao finalizada! Verifique o status no painel LSTORE."</pre>
+# 4. Configura Firewall (Permitir API via VPN e Local)
+/ip firewall filter add chain=input action=accept protocol=tcp dst-port=<span id="script-mk-port-2">8728</span> comment="LSTORE: Permitir API" place-before=0
+
+# 5. Configura Cliente VPN (SSTP/OVPN para NAT Traversal)
+:do {
+    /interface sstp-client add name=vpn-lstore connect-to=${state.vpnConfig.server} user="${state.vpnConfig.token}" password="lstore-secure-pass" profile=default-encryption verify-server-certificate=no comment="Painel LSTORE"
+} on-error={
+    :do {
+        /interface ovpn-client add name=vpn-lstore connect-to=${state.vpnConfig.server} port=${state.vpnConfig.port} mode=ip user="${state.vpnConfig.token}" password="lstore-secure-pass" profile=default-encryption add-default-route=no comment="Painel LSTORE"
+    } on-error={
+        /log error "LSTORE: Falha ao criar interface VPN"
+    }
+}
+
+# 6. Script de Monitoramento (Watchdog)
+/system script add name="LSTORE_Watchdog" source={
+    :local vpnName "vpn-lstore"
+    :if ([/interface get [find name=$vpnName] running] = false) do={
+        /interface enable [find name=$vpnName]
+        /log warning "LSTORE: VPN desconectada, tentando reativar..."
+    }
+}
+/system scheduler add name="LSTORE_KeepAlive" interval=1m on-event="LSTORE_Watchdog"
+
+/log info "LSTORE: Configuracao finalizada com sucesso!"
+/put "Pronto! O seu Mikrotik agora esta visivel para o Painel LSTORE."</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  `,figuracao finalizada! Verifique o status no painel LSTORE."</pre>
           </div>
         </div>
       </div>
@@ -2046,19 +2077,19 @@ function navigate(page) {
     const scriptSpans = {
       name: document.getElementById('script-mk-name'),
       name2: document.getElementById('script-mk-name-2'),
-      ip: document.getElementById('script-mk-ip'),
       user: document.getElementById('script-mk-user'),
       pass: document.getElementById('script-mk-pass'),
-      port: document.getElementById('script-mk-port')
+      port: document.getElementById('script-mk-port'),
+      port2: document.getElementById('script-mk-port-2')
     };
 
     const updateScript = () => {
-      scriptSpans.name.innerText = inputs.name.value || 'Router';
-      scriptSpans.name2.innerText = inputs.name.value || 'Router';
-      scriptSpans.ip.innerText = inputs.ip.value || '0.0.0.0';
-      scriptSpans.user.innerText = inputs.user.value || 'admin';
-      scriptSpans.pass.innerText = inputs.pass.value || 'password';
-      scriptSpans.port.innerText = inputs.port.value || '8728';
+      if (scriptSpans.name) scriptSpans.name.innerText = inputs.name.value || 'Router';
+      if (scriptSpans.name2) scriptSpans.name2.innerText = inputs.name.value || 'Router';
+      if (scriptSpans.user) scriptSpans.user.innerText = inputs.user.value || 'admin';
+      if (scriptSpans.pass) scriptSpans.pass.innerText = inputs.pass.value || 'password';
+      if (scriptSpans.port) scriptSpans.port.innerText = inputs.port.value || '8728';
+      if (scriptSpans.port2) scriptSpans.port2.innerText = inputs.port.value || '8728';
     };
 
     Object.values(inputs).forEach(input => {

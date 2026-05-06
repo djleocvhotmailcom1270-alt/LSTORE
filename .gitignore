@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# WhatsApp Session/Cache
+.wwebjs_auth
+.wwebjs_cache
+auth_info.json
+
