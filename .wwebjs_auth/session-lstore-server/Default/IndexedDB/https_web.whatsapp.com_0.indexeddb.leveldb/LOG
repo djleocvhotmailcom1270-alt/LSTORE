@@ -1,0 +1,5 @@
+2026/05/06-15:58:27.095 1ab4 Reusing MANIFEST C:\Users\pc\Desktop\LS\.wwebjs_auth\session-lstore-server\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/06-15:58:27.097 1ab4 Recovering log #345
+2026/05/06-15:58:27.290 1ab4 Reusing old log C:\Users\pc\Desktop\LS\.wwebjs_auth\session-lstore-server\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000345.log 
+2026/05/06-15:58:27.295 1ab4 Delete type=2 #343
+2026/05/06-15:58:27.295 1ab4 Delete type=2 #348

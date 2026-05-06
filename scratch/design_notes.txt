@@ -1,0 +1,4 @@
+// Image already provided in request. I will use the path if available or just mimic it.
+// Since I can't easily "download" from the UI to a specific path without a URL, 
+// and the user provided it as an attachment, I'll refer to it if I can.
+// Actually, I'll just mimic the look with CSS as it's more professional and interactive.

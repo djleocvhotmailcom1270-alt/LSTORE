@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LSTORE | Gerenciamento de Provedores</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-logo">L</div>
+          <span class="brand-name">LSTORE V2</span>
+        </div>
+        
+        <nav class="nav-menu">
+          <a href="#" class="nav-item active" data-page="dashboard">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Dashboard</span>
+          </a>
+          <a href="#" class="nav-item" data-page="mikrotiks">
+            <i data-lucide="router"></i>
+            <span>Mikrotiks</span>
+          </a>
+          <a href="#" class="nav-item" data-page="clients">
+            <i data-lucide="users"></i>
+            <span>Clientes</span>
+          </a>
+          <a href="#" class="nav-item" data-page="ippools">
+            <i data-lucide="database"></i>
+            <span>IP Pool</span>
+          </a>
+          <a href="#" class="nav-item" data-page="plans">
+            <i data-lucide="activity"></i>
+            <span>Planos de Internet</span>
+          </a>
+          <a href="#" class="nav-item" data-page="vpn">
+            <i data-lucide="shield-check"></i>
+            <span>Configuração VPN</span>
+          </a>
+          <a href="#" class="nav-item" data-page="whatsapp">
+            <i data-lucide="message-circle"></i>
+            <span>WhatsApp</span>
+          </a>
+          <a href="#" class="nav-item" data-page="bank">
+            <i data-lucide="wallet"></i>
+            <span>Conta Bancária</span>
+          </a>
+          <a href="#" class="nav-item" data-page="payments">
+            <i data-lucide="list-checks"></i>
+            <span>Lista de Pagamentos</span>
+          </a>
+          <a href="#" class="nav-item" data-page="all_payments">
+            <i data-lucide="credit-card"></i>
+            <span>Todos os Pagamentos</span>
+          </a>
+          <a href="#" class="nav-item" data-page="contacts">
+            <i data-lucide="contact-2"></i>
+            <span>Lista de Contatos</span>
+          </a>
+          <a href="#" class="nav-item" data-page="logs">
+            <i data-lucide="terminal"></i>
+            <span>Logs</span>
+          </a>
+          <div class="nav-footer">
+             <a href="#" class="nav-item" data-page="settings">
+              <i data-lucide="settings"></i>
+              <span>Configurações</span>
+            </a>
+          </div>
+        </nav>
+      </aside>
+
+      <main class="main-content" id="main-view">
+        <!-- Content will be injected here by main.js -->
+      </main>
+
+      <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content" id="modal-content">
+          <!-- Modal content injected here -->
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

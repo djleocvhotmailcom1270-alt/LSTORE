@@ -1,0 +1,41 @@
+2026/05/06-15:56:56.072 5cc Reusing MANIFEST C:\Users\pc\Desktop\LS\.wwebjs_auth\session-lstore-server\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/06-15:56:56.074 5cc Recovering log #328
+2026/05/06-15:56:57.304 5cc Reusing old log C:\Users\pc\Desktop\LS\.wwebjs_auth\session-lstore-server\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000328.log 
+2026/05/06-15:57:05.140 5cc Level-0 table #346: started
+2026/05/06-15:57:05.395 5cc Level-0 table #346: 1376280 bytes OK
+2026/05/06-15:57:05.407 5cc Delete type=0 #328
+2026/05/06-15:57:06.744 5cc Compacting 1@0 + 0@1 files
+2026/05/06-15:57:06.995 5cc Generated table #347@0: 24438 keys, 571115 bytes
+2026/05/06-15:57:07.010 5cc Generated table #348@0: 219 keys, 99776 bytes
+2026/05/06-15:57:07.010 5cc Compacted 1@0 + 0@1 files => 670891 bytes
+2026/05/06-15:57:07.012 5cc compacted to: files[ 0 2 12 0 0 0 0 ]
+2026/05/06-15:57:07.425 5cc Compacting 1@1 + 10@2 files
+2026/05/06-15:57:07.623 5cc Generated table #349@1: 28922 keys, 2153260 bytes
+2026/05/06-15:57:07.919 5cc Generated table #350@1: 97053 keys, 2248880 bytes
+2026/05/06-15:57:08.188 5cc Generated table #351@1: 86434 keys, 2235434 bytes
+2026/05/06-15:57:08.406 5cc Generated table #352@1: 29554 keys, 2198452 bytes
+2026/05/06-15:57:08.485 5cc Generated table #353@1: 1251 keys, 2142762 bytes
+2026/05/06-15:57:08.571 5cc Generated table #354@1: 1578 keys, 2143215 bytes
+2026/05/06-15:57:08.671 5cc Generated table #355@1: 1928 keys, 2147882 bytes
+2026/05/06-15:57:08.775 5cc Generated table #356@1: 2113 keys, 2149948 bytes
+2026/05/06-15:57:08.919 5cc Generated table #357@1: 5763 keys, 2158488 bytes
+2026/05/06-15:57:09.317 5cc Generated table #358@1: 29079 keys, 2269368 bytes
+2026/05/06-15:57:09.356 5cc Generated table #359@1: 2239 keys, 190845 bytes
+2026/05/06-15:57:09.356 5cc Compacted 1@1 + 10@2 files => 22038534 bytes
+2026/05/06-15:57:09.358 5cc compacted to: files[ 0 1 13 0 0 0 0 ]
+2026/05/06-15:57:09.360 5cc Delete type=2 #346
+2026/05/06-15:57:09.458 5cc Compacting 1@1 + 1@2 files
+2026/05/06-15:57:09.707 5cc Generated table #360@1: 19331 keys, 1752276 bytes
+2026/05/06-15:57:09.707 5cc Compacted 1@1 + 1@2 files => 1752276 bytes
+2026/05/06-15:57:09.709 5cc compacted to: files[ 0 0 13 0 0 0 0 ]
+2026/05/06-15:57:09.710 5cc Delete type=2 #332
+2026/05/06-15:57:09.711 5cc Delete type=2 #333
+2026/05/06-15:57:09.711 5cc Delete type=2 #334
+2026/05/06-15:57:09.711 5cc Delete type=2 #335
+2026/05/06-15:57:09.712 5cc Delete type=2 #336
+2026/05/06-15:57:09.712 5cc Delete type=2 #337
+2026/05/06-15:57:09.712 5cc Delete type=2 #338
+2026/05/06-15:57:09.712 5cc Delete type=2 #339
+2026/05/06-15:57:09.712 5cc Delete type=2 #340
+2026/05/06-15:57:09.712 5cc Delete type=2 #341
+2026/05/06-15:57:09.713 5cc Delete type=2 #347

@@ -1,0 +1,700 @@
+{
+  "mikrotiks": [
+    {
+      "id": 2,
+      "name": "APK2",
+      "ip": "192.168.0.111",
+      "status": "online",
+      "cpu": "0%",
+      "lastSeen": 1778093815225,
+      "latency": 286
+    }
+  ],
+  "plans": [
+    {
+      "id": 1778073128195.626,
+      "name": "400M",
+      "speed": "undefined/undefined",
+      "price": "1$",
+      "syncedMks": [
+        {
+          "name": "APK2",
+          "ip": "192.168.0.111"
+        }
+      ],
+      "download": "undefined",
+      "upload": "undefined",
+      "local": "",
+      "remote": "",
+      "dns": ""
+    }
+  ],
+  "clients": [
+    {
+      "id": 1778092229047,
+      "name": "BV",
+      "login": "BV",
+      "password": "654",
+      "plan": "400M",
+      "cpf": "",
+      "phone": "+55 99 9121-2304",
+      "address": "",
+      "email": "",
+      "date": "",
+      "vencimento": "6",
+      "diasBloqueio": "0",
+      "status": "bloqueado",
+      "syncedMks": [
+        {
+          "ip": "192.168.0.111",
+          "name": "APK2"
+        }
+      ],
+      "last_wa_1778092229047": 1778093545394
+    },
+    {
+      "id": 1778093862202,
+      "name": "alana",
+      "login": "alana",
+      "password": "1234",
+      "plan": "400M",
+      "cpf": "",
+      "phone": "+55 99 9121-2304",
+      "address": "",
+      "email": "",
+      "date": "",
+      "vencimento": "6",
+      "diasBloqueio": "0",
+      "status": "ativo",
+      "syncedMks": [
+        {
+          "ip": "192.168.0.111",
+          "name": "APK2"
+        }
+      ],
+      "last_wa_1778093862202": 1778093963297,
+      "ultimoPagamentoCiclo": "5/2026"
+    }
+  ],
+  "ipPools": [
+    {
+      "id": 1778073159006.9639,
+      "name": "leo",
+      "ranges": "192.168.20.2-192.168.20.254",
+      "syncedMks": [
+        {
+          "name": "APK2",
+          "ip": "192.168.0.111"
+        }
+      ]
+    },
+    {
+      "id": 1778073159007.437,
+      "name": "leo44",
+      "ranges": "192.168.2.2-192.168.2.254",
+      "syncedMks": [
+        {
+          "name": "APK2",
+          "ip": "192.168.0.111"
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "id": 1778087836304,
+      "name": "AB",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "14:17"
+    },
+    {
+      "id": 1778087774207,
+      "name": "AB",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1$",
+      "date": "Hoje",
+      "time": "14:16:14"
+    },
+    {
+      "id": 1778087666688,
+      "name": "AB",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "14:14"
+    },
+    {
+      "id": 1778087468642,
+      "name": "AB",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1$",
+      "date": "Hoje",
+      "time": "14:11:08"
+    },
+    {
+      "id": 1778087349096,
+      "name": "AB",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "14:09"
+    },
+    {
+      "id": 1778087349074,
+      "name": "AB",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "14:09"
+    },
+    {
+      "id": 1778087071978,
+      "name": "AB",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1$",
+      "date": "Hoje",
+      "time": "14:04:31"
+    },
+    {
+      "id": 1778086565658,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "13:56"
+    },
+    {
+      "id": 1778086329722,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1$",
+      "date": "Hoje",
+      "time": "13:52:09"
+    },
+    {
+      "id": 1778086212742,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "13:50"
+    },
+    {
+      "id": 1778085969664,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1$",
+      "date": "Hoje",
+      "time": "13:46:09"
+    },
+    {
+      "id": 1778085759824,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "13:42"
+    },
+    {
+      "id": 1778085104601,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1$",
+      "date": "Hoje",
+      "time": "13:31:44"
+    },
+    {
+      "id": 1778084994777,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "13:29"
+    },
+    {
+      "id": 1778084984584,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1$",
+      "date": "Hoje",
+      "time": "13:29:44"
+    },
+    {
+      "id": 1778084421052,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "13:20"
+    },
+    {
+      "id": 1778083943451,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1$",
+      "date": "Hoje",
+      "time": "13:12:23"
+    },
+    {
+      "id": 1778083463240,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "13:04"
+    },
+    {
+      "id": 1778083051916,
+      "name": "PA2026",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1$",
+      "date": "Hoje",
+      "time": "12:57:31"
+    },
+    {
+      "id": 1778082010017,
+      "name": "apk",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "12:40"
+    },
+    {
+      "id": 1778080396350,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "12:13"
+    },
+    {
+      "id": 1778080388378,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "12:13"
+    },
+    {
+      "id": 1778079080068,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:51"
+    },
+    {
+      "id": 1778079070029,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:51"
+    },
+    {
+      "id": 1778078944070,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:49"
+    },
+    {
+      "id": 1778078934029,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:48"
+    },
+    {
+      "id": 1778078908423,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:48"
+    },
+    {
+      "id": 1778078897974,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:48"
+    },
+    {
+      "id": 1778077339362,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:22"
+    },
+    {
+      "id": 1778077339029,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:22"
+    },
+    {
+      "id": 1778077288695,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:21"
+    },
+    {
+      "id": 1778077288370,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:21"
+    },
+    {
+      "id": 1778077263344,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:21"
+    },
+    {
+      "id": 1778077263011,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:21"
+    },
+    {
+      "id": 1778077237991,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:20"
+    },
+    {
+      "id": 1778077237658,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:20"
+    },
+    {
+      "id": 1778076947764,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:15"
+    },
+    {
+      "id": 1778076947028,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:15"
+    },
+    {
+      "id": 1778076784480,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:13"
+    },
+    {
+      "id": 1778076784165,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:13"
+    },
+    {
+      "id": 1778076708364,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:11"
+    },
+    {
+      "id": 1778076708027,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:11"
+    },
+    {
+      "id": 1778076632345,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:10"
+    },
+    {
+      "id": 1778076632033,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:10"
+    },
+    {
+      "id": 1778076549380,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:09"
+    },
+    {
+      "id": 1778076549034,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:09"
+    },
+    {
+      "id": 1778076391748,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "11:06"
+    },
+    {
+      "id": 1778076391035,
+      "name": "popopopop",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "11:06"
+    },
+    {
+      "id": 1778075824345,
+      "name": "jjjj",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "10:57"
+    },
+    {
+      "id": 1778075824028,
+      "name": "jjjj",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "10:57"
+    },
+    {
+      "id": 1778075698734,
+      "name": "jjjj",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "10:54"
+    },
+    {
+      "id": 1778075698036,
+      "name": "jjjj",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "Hoje",
+      "time": "10:54"
+    },
+    {
+      "id": 1778074561928,
+      "name": "ju",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "1$",
+      "date": "06/05/2026",
+      "time": "10:36"
+    },
+    {
+      "id": 1778094020994,
+      "name": "alana",
+      "bank": "Mercado Pago",
+      "method": "PIX",
+      "value": "R$ 1",
+      "date": "Hoje",
+      "time": "16:00:20"
+    }
+  ],
+  "bankConfig": {
+    "Mercado Pago": {
+      "clientId": "APP_USR-7127089708701551-050121-a4814fac87b3b66df6305a972d729593-1569635740",
+      "clientSecret": "APP_USR-7127089708701551-050121-a4814fac87b3b66df6305a972d729593-1569635740"
+    }
+  },
+  "vpnConfig": {
+    "server": "vpn.lstore.net",
+    "port": "1194",
+    "token": "LS-1SLOBFLDG"
+  },
+  "activePage": "clients",
+  "clientSearchQuery": "",
+  "pendingCharges": [
+    {
+      "txid": "DEMO1778075103487",
+      "clientId": 1778074973560,
+      "clientName": "jjjj",
+      "clientLogin": "dsdsdsd",
+      "amount": "1$",
+      "credentials": {},
+      "createdAt": "2026-05-06T13:45:03.512Z"
+    },
+    {
+      "txid": "DEMO1778075391965",
+      "clientId": 1778074973560,
+      "clientName": "jjjj",
+      "clientLogin": "dsdsdsd",
+      "amount": "1$",
+      "credentials": {},
+      "createdAt": "2026-05-06T13:49:53.995Z"
+    },
+    {
+      "txid": "DEMO1778075486534",
+      "clientId": 1778074973560,
+      "clientName": "jjjj",
+      "clientLogin": "dsdsdsd",
+      "amount": "1$",
+      "credentials": {},
+      "createdAt": "2026-05-06T13:51:28.276Z"
+    },
+    {
+      "txid": "DEMO1778075537250",
+      "clientId": 1778074973560,
+      "clientName": "jjjj",
+      "clientLogin": "dsdsdsd",
+      "amount": "1$",
+      "credentials": {},
+      "createdAt": "2026-05-06T13:52:17.279Z"
+    },
+    {
+      "txid": "DEMO1778076059915",
+      "clientId": 1778074973560,
+      "clientName": "jjjj",
+      "clientLogin": "dsdsdsd",
+      "amount": "1$",
+      "credentials": {},
+      "createdAt": "2026-05-06T14:00:59.939Z"
+    },
+    {
+      "txid": "DEMO1778076198268",
+      "clientId": 1778076193460,
+      "clientName": "popopopop",
+      "clientLogin": "4545",
+      "amount": "1$",
+      "credentials": {},
+      "createdAt": "2026-05-06T14:03:18.374Z"
+    },
+    {
+      "txid": "DEMO1778076421825",
+      "clientId": 1778076193460,
+      "clientName": "popopopop",
+      "clientLogin": "4545",
+      "amount": "1$",
+      "credentials": {},
+      "createdAt": "2026-05-06T14:07:01.853Z"
+    },
+    {
+      "txid": "DEMO1778076437199",
+      "clientId": 1778076193460,
+      "clientName": "popopopop",
+      "clientLogin": "4545",
+      "amount": "1$",
+      "credentials": {},
+      "createdAt": "2026-05-06T14:07:19.486Z"
+    },
+    {
+      "txid": "DEMO1778076445708",
+      "clientId": 1778076193460,
+      "clientName": "popopopop",
+      "clientLogin": "4545",
+      "amount": "1$",
+      "credentials": {},
+      "createdAt": "2026-05-06T14:07:25.729Z"
+    },
+    {
+      "txid": "157248398999",
+      "clientId": 1778090527926,
+      "clientName": "GG",
+      "clientLogin": "GG",
+      "amount": "1$",
+      "credentials": {
+        "clientId": "APP_USR-7127089708701551-050121-a4814fac87b3b66df6305a972d729593-1569635740",
+        "clientSecret": "APP_USR-7127089708701551-050121-a4814fac87b3b66df6305a972d729593-1569635740"
+      },
+      "createdAt": "2026-05-06T18:15:33.314Z"
+    }
+  ],
+  "activeLogMkIp": "192.168.0.111"
+}
